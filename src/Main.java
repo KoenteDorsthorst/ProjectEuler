@@ -1,7 +1,4 @@
-import problems.Problem1;
-import problems.Problem2;
-import problems.Problem3;
-import problems.Problem4;
+import problems.*;
 
 public class Main {
 
@@ -11,6 +8,8 @@ public class Main {
         Problem2 problem2 = new Problem2();
         Problem3 problem3 = new Problem3();
         Problem4 problem4 = new Problem4();
+        Problem5 problem5 = new Problem5();
+        Problem6 problem6 = new Problem6();
 
     }
 
