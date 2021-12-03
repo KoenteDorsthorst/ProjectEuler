@@ -7,6 +7,9 @@ package problems;
 
 public class Problem3 {
 
+    public Problem3(){
+        solve();
+    }
 
     public void solve() {
         long factorNumber = 600851475143L;
@@ -28,7 +31,7 @@ public class Problem3 {
 
             }
         }
-        System.out.print(biggestFactor);
+        System.out.println("Problem 3 solution: " + biggestFactor);
     }
 
     boolean checkIfPrime(long number){

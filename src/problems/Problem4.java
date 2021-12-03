@@ -25,7 +25,7 @@ public class Problem4 {
                 }
             }
         }
-        System.out.println(highestPalindrome);
+        System.out.println("Problem 4 solution: " + highestPalindrome);
     }
 
     boolean isPalindrome(int number){

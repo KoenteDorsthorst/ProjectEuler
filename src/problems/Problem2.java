@@ -10,12 +10,16 @@ package problems;
 //find the sum of the even-valued terms.
 
 public class Problem2 {
-    int previous = 1;
-    int current = 1;
-    int sum = 0;
-    int maxNumber = 4000000;
+
+    public Problem2(){
+        solve();
+    }
 
     public void solve() {
+        int previous = 1;
+        int current = 1;
+        int sum = 0;
+        int maxNumber = 4000000;
         while (current < maxNumber) {
             int newNumber = previous + current;
             if(newNumber % 2 == 0){
@@ -24,6 +28,6 @@ public class Problem2 {
             previous = current;
             current = newNumber;
         }
-        System.out.println(sum);
+        System.out.println("Problem 2 solution: " + sum);
     }
 }
