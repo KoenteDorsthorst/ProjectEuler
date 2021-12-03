@@ -15,7 +15,7 @@ public class Problem2 {
         solve();
     }
 
-    public void solve() {
+    void solve() {
         int previous = 1;
         int current = 1;
         int sum = 0;

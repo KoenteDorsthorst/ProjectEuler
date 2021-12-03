@@ -13,7 +13,7 @@ public class Problem4 {
         solve();
     }
 
-    public void solve(){
+    void solve(){
         int highestPalindrome = 0;
 
         for(int i = 1; i < 1000; i++){

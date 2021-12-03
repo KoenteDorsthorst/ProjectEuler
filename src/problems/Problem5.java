@@ -11,7 +11,7 @@ public class Problem5 {
         solve();
     }
 
-    public void solve(){
+    void solve(){
 
         int smallestNumber = 0;
 

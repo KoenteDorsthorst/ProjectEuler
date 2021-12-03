@@ -14,7 +14,7 @@ public class Problem1 {
         solve();
     }
 
-    public void solve() {
+    void solve() {
         int maxNumber = 1000;
         int sum = 0;
         for (int i = 1; i < maxNumber; i++) {

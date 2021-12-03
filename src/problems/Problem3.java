@@ -11,7 +11,7 @@ public class Problem3 {
         solve();
     }
 
-    public void solve() {
+    void solve() {
         long factorNumber = 600851475143L;
         long biggestFactor = 0;
         long[] factors = new long[2];
