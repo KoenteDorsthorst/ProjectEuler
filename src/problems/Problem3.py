@@ -8,6 +8,8 @@ class Problem3:
         factor_number = 600851475143
         biggest_factor = 0
 
+        # Anything above factor_number ^ 0.5 has already been checked
+        # by dividing the factor_number with the number that's currently being checked.
         for i in range(2, int(factor_number**0.5) + 1):
             if factor_number % i == 0:
                 if self.check_if_prime(i):
