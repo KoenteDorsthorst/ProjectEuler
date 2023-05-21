@@ -9,6 +9,7 @@
 # find the sum of the even-valued terms.
 class Problem2:
     def solve(self):
+        # The first 2 digits are both 1. Its safe to start with them because they are both not even
         previous = 1
         current = 1
         sum = 0
