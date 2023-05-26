@@ -5,4 +5,15 @@
 class Problem5:
 
     def solve(self):
+        # Using 380 as iteration number. It's the only unique number that can be divided by 20 and 19.
+        iteration_number = 380
+        iteration = iteration_number
+        while(True):
+
+            for i in range (20, 0, -1):
+                if i == 1:
+                    return iteration
+                if iteration % i != 0:
+                    break
+            iteration += iteration_number
         return None
