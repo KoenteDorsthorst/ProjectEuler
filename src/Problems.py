@@ -3,7 +3,7 @@ import importlib
 # List of module names
 
 
-problems = 7
+problems = 8
 
 
 # Iterate over module names
