@@ -9,4 +9,9 @@
 class Problem9:
 
     def solve(self):
-        return 0
+        for c in range(1000, 0, -1):
+            for b in range(1000 - (c + 1), 0, -1):
+                a = 1000 - (c + b)
+                if a**2 + b**2 == c**2:
+                    return a * b * c
+        return None
